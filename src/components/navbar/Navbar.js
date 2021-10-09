@@ -24,7 +24,7 @@ export default function Navbar() {
         </button>
 
         <div
-          className="collapse navbar-collapse p-3"
+          className="collapse navbar-collapse pl-3 pr-3"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mr-auto">
