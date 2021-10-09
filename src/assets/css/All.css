@@ -59,6 +59,10 @@
   border: 1px solid #fff;
 }
 
+.navbar-bg {
+  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
+}
+
 @media only screen and (max-width: 600px) {
   .producer-card {
     text-align: center;
