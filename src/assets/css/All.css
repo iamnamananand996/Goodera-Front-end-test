@@ -45,7 +45,12 @@
   width: 85%;
 }
 
-textarea:focus,
-input:focus {
-  outline: none;
+.searchbar {
+  position: relative;
+  height: 80px;
+  bottom: 45px;
+}
+
+.form-control {
+  border: 1px solid #fff;
 }
