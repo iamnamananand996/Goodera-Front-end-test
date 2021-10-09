@@ -41,6 +41,10 @@
   border-radius: 24px;
 }
 
+.producer-button {
+  text-align: right;
+}
+
 .btn-block {
   width: 85%;
 }
@@ -53,4 +57,35 @@
 
 .form-control {
   border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .producer-card {
+    text-align: center;
+  }
+  .product-title {
+    padding-top: 20px;
+  }
+  .producer-button {
+    text-align: center;
+  }
+  .searchbar {
+    height: 200px;
+  }
+  .btn-block {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .jumbotron-header {
+    height: 400px;
+  }
+  .header {
+    top: 70px;
+    left: 75px;
+    font-size: 30px;
+  }
+  .header-paragraph {
+    left: 45px;
+    top: 180px;
+  }
 }

@@ -8,17 +8,17 @@ export default function ProducerCard({ producer }) {
         <div className="row">
           <div className="col-12">
             <div className="row p-3">
-              <div className="col-4 text-center">
+              <div className="col-12 col-lg-4 text-center">
                 <img src={producerIcon} alt="" srcset="" />
               </div>
-              <div className="col-8 p-0">
-                <div className="col-12">
+              <div className="col-12 col-lg-8 p-0">
+                <div className="col-12 product-title">
                   <h4>{producer.title}</h4>
                 </div>
                 <div className="col-12">
                   <p>{producer?.body}</p>
                 </div>
-                <div className="col-12 text-right">
+                <div className="col-12 producer-button">
                   <button className="btn btn-outline-danger">
                     {" "}
                     View Details
