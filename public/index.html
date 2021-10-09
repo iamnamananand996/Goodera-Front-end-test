@@ -24,7 +24,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="stylesheet" href="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.css">
+    <title>Goodera FrontEnd Test</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +40,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop()
+
+          //>=, not <=
+          if (scroll >= 60) {
+            //clearHeader, not clearheader - caps H
+            $(".navbar").addClass("bg-light")
+          } else {
+            $(".navbar").removeClass("bg-light")
+          }
+        }) //missing );
+
+        // document ready
+      })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
   </body>
 </html>
